@@ -1,0 +1,114 @@
+body{
+    width: 100%;
+    font-family: "Zen Kaku Gothic New", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #006186;
+    background-color: #f09c7a;
+  }
+  
+  .logo{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header{
+    height: 5rem;
+    display: grid;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+header img{
+  height: 1.3rem;
+}
+
+.hidari{
+    cursor: pointer;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 30rem;
+    margin: auto;
+}
+
+.top h1{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.top p{
+    font-size: 0.8rem;
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.middle img{
+    width: 10rem;
+    margin-right: 1.5rem;
+    align-self: center;
+    margin: auto;
+}
+
+.middle h5{
+    font-size: 0.7rem;
+    border-bottom: solid #006186 1px;
+}
+
+.middle p{
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    color: #006186;
+}
+
+#listAdd-btn{
+    margin-top: 2rem;
+}
+
+.bottom h5{
+    font-size: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    background-color:#006186;
+    color: #f09c7a;
+}
+
+#user-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.user-info:hover{
+    background-color: rgb(201, 201, 201);
+}
+
+.user-info span{
+    display: block;
+    margin-left: 1rem;
+}
+
+.user-icon{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+footer{
+    height: 3rem;
+}

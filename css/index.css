@@ -1,0 +1,193 @@
+body{
+  width: 100%;
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 97, 134);
+  background-color: #f09c7a;
+}
+
+.logo{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #006186 ;
+}
+
+span{
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+header {
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  justify-items: center;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #f09c7a;
+}
+
+header h1 {
+  margin: 0; /* 余白をリセット */
+  grid-column: 2;
+}
+
+header img{
+  height: 2.5rem;
+  justify-self: end;
+  cursor: pointer;
+}
+
+/* メインビジュアルについて下に記載 */
+.wave h1{
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 250px;
+  margin-left: 20px;
+  background-color: #f09c7a;
+  position: absolute;
+  top:-100px;
+  z-index:999;
+}
+
+.wave p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  position: absolute;
+  top:210px;
+  z-index:999;
+  background-color: #f09c7a;
+  margin-left: 20px;
+  color: #006186;
+}
+
+.wave {
+background: url("../img/bgimg.jpg");
+height: 500px;
+position: relative;
+display: flex;
+/*contentsをcenterに*/
+color: #ffffff;
+z-index: 100;
+}
+
+.wave::after {
+background: url(../wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -10px;
+  content: '';
+  height: 280px;
+  position: absolute;
+  width: 100%;
+}
+
+.form-wrapper{
+  background-color:#f09c7a;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top:500px;
+  z-index: 999;
+}
+
+.form1-msg{
+  text-align: center;
+}
+
+h2{
+  margin: 0;
+}
+
+.form1-msg h2{
+  font-size: 1rem;
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 1.5rem;
+}
+
+.form1-msg p{
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form1{
+  justify-items: center;
+}
+
+.form1 p{
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+input{
+  width: 30rem;
+  height: 2rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+  background-color: #f09c7a;
+  border: solid #006186 1px;
+}
+
+.form{
+  margin-top: 2rem;
+}
+
+select{
+  width: 30.5rem;
+  height: 2.5rem;
+  border-radius: 15px;
+  border: solid #006186 1px;
+  background-color: #f09c7a;
+}
+
+option{
+  color: #006186;
+}
+
+.dropdown {
+  position: absolute;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+textarea{
+  width: 30.5rem;
+  height: 5rem;
+  border-radius: 15px;
+  border: solid #006186 1px;
+  background-color: #f09c7a;
+}
+
+.submit{
+  background-color: #f09c7a;
+  color: #006186;
+  margin-top: 4rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: #006186;
+  color: #f09c7a;
+}
