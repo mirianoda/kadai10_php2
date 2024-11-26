@@ -5,7 +5,7 @@ OUR BOOKSHELF
 - みんなのお気に入りの本を登録して本棚を作り、共有できるサービスです
 
 ## ③アプリのデプロイURL
-デプロイしている場合はURLを記入（任意）
+https://yellowseal83.sakura.ne.jp/kadai2_sakura/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 なし
