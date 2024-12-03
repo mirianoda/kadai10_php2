@@ -9,7 +9,7 @@ try {
     $books = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Google Books APIキー
-    $apiKey = "AIzaSyD_ASTpi0mKIWoZKka2UBlrjCLEX0r3apo";
+    $apiKey = "***********";
 
     // 各book_idでGoogle Books APIを呼び出して表紙URLを取得
     $results = [];
