@@ -1,6 +1,6 @@
 <?php
 // APIキー（サーバー側で管理）
-$apiKey = "AIzaSyD_ASTpi0mKIWoZKka2UBlrjCLEX0r3apo";
+$apiKey = "**************";
 
 // クエリを取得
 $query = $_GET["query"] ?? "";
